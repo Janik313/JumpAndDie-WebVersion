@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+   <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-157295670-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -18,7 +18,7 @@
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/UnityLoader.js"></script>
     <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebGL.json", {onProgress: UnityProgress});
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Default Template.json", {onProgress: UnityProgress});
     </script>
   </head>
   <body>
@@ -28,9 +28,8 @@
         <div class="webgl-logo"></div>
         <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
         <div class="title">Jump & Die</div>
+		<br>
 		<br><button onclick="window.location.href='https://janik313.github.io'">Back to janik313.github.io</button>
-	      <br> Press Escape to Save your Progress.
-	      
       </div>
     </div>
   </body>
